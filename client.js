@@ -25,7 +25,7 @@ LeaderBoard.PlayerLeaderBoardValues = [
   DisplayName: "Статус",
   ShortDisplayName: "Статус"
  },
- {
+ { 
   Value: "Scores",
   DisplayName: "Очки",
   ShortDisplayName: "Очки"
@@ -280,9 +280,10 @@ player.Build.FillQuad.Value = true;
 player.Damage.DamageIn.Value = false;
 Build.GetContext().FloodFill.Value = false; 
 player.Properties.Get("coins").Value = Infinity; 
-player.contextedProperties.SkinType.= 1;
+player.contextedProperties.SkinType.Value = 1;
+player.SkinType.1;
 }
-  }   
+  }
     )                
 
 
